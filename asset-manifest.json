@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/playstation-treasures/static/css/main.1ba03618.chunk.css",
+    "main.css": "/playstation-treasures/static/css/main.6cbdad23.chunk.css",
     "main.js": "/playstation-treasures/static/js/main.317214dd.chunk.js",
     "main.js.map": "/playstation-treasures/static/js/main.317214dd.chunk.js.map",
     "runtime-main.js": "/playstation-treasures/static/js/runtime-main.d4d758de.js",
@@ -8,14 +8,14 @@
     "static/js/2.8fcf2591.chunk.js": "/playstation-treasures/static/js/2.8fcf2591.chunk.js",
     "static/js/2.8fcf2591.chunk.js.map": "/playstation-treasures/static/js/2.8fcf2591.chunk.js.map",
     "index.html": "/playstation-treasures/index.html",
-    "static/css/main.1ba03618.chunk.css.map": "/playstation-treasures/static/css/main.1ba03618.chunk.css.map",
+    "static/css/main.6cbdad23.chunk.css.map": "/playstation-treasures/static/css/main.6cbdad23.chunk.css.map",
     "static/js/2.8fcf2591.chunk.js.LICENSE.txt": "/playstation-treasures/static/js/2.8fcf2591.chunk.js.LICENSE.txt",
     "static/media/logo.f650652f.png": "/playstation-treasures/static/media/logo.f650652f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d4d758de.js",
     "static/js/2.8fcf2591.chunk.js",
-    "static/css/main.1ba03618.chunk.css",
+    "static/css/main.6cbdad23.chunk.css",
     "static/js/main.317214dd.chunk.js"
   ]
 }
