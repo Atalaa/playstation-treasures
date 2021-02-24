@@ -1,13 +1,13 @@
 import Banner from './Banner';
 import Cart from './Cart';
-import ShopingList from './ShopingList';
+import ShoppingList from './ShoppingList';
 
 const App = () => {
   return (
     <div>
       <Banner />
       <Cart />
-      <ShopingList />
+      <ShoppingList />
     </div>
   );
 }

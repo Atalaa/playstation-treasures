@@ -15,7 +15,7 @@ import gamesList from '../data/gamesList';
 // };
 
 
-const ShopingList = () => {
+const ShoppingList = () => {
 
   const genresArr = (acc, currentGame) => {
     return acc.includes(currentGame.genre) ? acc : acc.concat(currentGame.genre);
@@ -31,18 +31,18 @@ const ShopingList = () => {
 				))}
 			</ul>
 
-      <ul>
-				{gamesList.map((game) => (
-					<li key={game.id}>{game.title}</li>
+      <ul className="gamesList">
+				{gamesList.map((gameItem) => (
+					<li key={gameItem.id} className="gameItem">
+            {gameItem.title}
+            {/* {gameItem.isBestSale && <span> 🔥</span>} */}
+
+            {gameItem.isSpecialOffer && <div className="gameSales">Special Offer</div>}
+          </li>
 				))}
 			</ul>
     </div>
   )
 }
 
-
-
-
-
-
-export default ShopingList;
+export default ShoppingList;
